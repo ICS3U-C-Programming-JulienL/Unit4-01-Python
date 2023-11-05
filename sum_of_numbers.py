@@ -10,7 +10,7 @@ def main():
     print(
         "This program displays the sum of all the numbers from 0 to the user's number."
     )
-    user_num_string = input("Enter your number: ")
+    user_num_string = input("Enter your integer: ")
 
     # initialize the counter and sum to 0
     counter = 0
@@ -34,13 +34,12 @@ def main():
 
                 # increment the counter
                 counter = counter + 1
-
-        print("")
-
-        # display the sum of all the numbers from 0 to the user's number
-        print(
-            "The sum of the numbers from 0 to {} is: {}.".format(user_num_string, sum)
-        )
+                print("")
+                
+                # display the sum of all the numbers from 0 to the user's number
+                print(
+                    "The sum of the numbers from 0 to {} is: {}.".format(user_num_string, sum)
+                    )
     except:
         # if the number is not an integer, then tell them their input is invalid
         print(
