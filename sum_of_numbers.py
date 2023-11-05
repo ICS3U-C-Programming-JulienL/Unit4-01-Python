@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 # Created By: Julien Lamoureux
-# Date: October 31, 2023
+# Date: November 5, 2023
 # This program displays the sum of all the numbers from 0 to the user's number
 
 
@@ -24,7 +24,7 @@ def main():
         if user_num_int <= 0:
             print("{} is not a positive integer".format(user_num_string))
         else:
-            # otherwise while the counter is less than or equal or the user number
+            # otherwise while the counter is less than or equal to the user number
             while counter <= user_num_int:
                 # display the tracking of the loop
                 print("Tracking {} times through loop".format(counter))
