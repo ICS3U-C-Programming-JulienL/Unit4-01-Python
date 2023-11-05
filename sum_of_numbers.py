@@ -35,11 +35,13 @@ def main():
                 # increment the counter
                 counter = counter + 1
                 print("")
-                
+
                 # display the sum of all the numbers from 0 to the user's number
                 print(
-                    "The sum of the numbers from 0 to {} is: {}.".format(user_num_string, sum)
+                    "The sum of the numbers from 0 to {} is: {}.".format(
+                        user_num_string, sum
                     )
+                )
     except:
         # if the number is not an integer, then tell them their input is invalid
         print(
